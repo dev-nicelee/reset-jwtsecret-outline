@@ -1,7 +1,7 @@
 {
   "name": "user-secret-script",
   "version": "1.0.0",
-  "description": "",
+  "description": "When you lost SECRET_KEY of outline wiki for self-hosted,",
   "main": "index.js",
   "dependencies": {
     "crypto": "^1.0.1",
@@ -15,5 +15,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-nicelee/reset-jwtsecret-outline.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dev-nicelee/reset-jwtsecret-outline/issues"
+  },
+  "homepage": "https://github.com/dev-nicelee/reset-jwtsecret-outline#readme"
 }
